@@ -525,7 +525,7 @@ button {
 .input::placeholder {
   color: #ffffff;
 }
-.form-button {
+.form-button-footer {
   min-width: 165px;
   height: 40px;
   display: flex;
