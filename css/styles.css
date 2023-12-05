@@ -491,7 +491,7 @@ button {
   background-color: #31d0aa;
 }
 /*FOOTER FORM*/
-.footer-form-cotainer {
+.footer-form-container {
   display: block;
   margin-left: 80px;
 }
@@ -542,6 +542,10 @@ button {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+}
+.form-button-footer:hover,
+.form-button-footer:focus {
+  background-color: #404bbf;
 }
 .form-button-icon {
   margin-left: 16px;
@@ -725,7 +729,7 @@ input:checked + .form-label-checkbox > .form-label-span {
 }
 .form-button {
   display: block;
-  margin-left: 96px;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
